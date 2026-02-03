@@ -6,6 +6,13 @@ body {
     /* Creates a background that starts white at the center 
        and fades to light gray at the edges */
 }
+    
+
+h1 {
+    color: darkblue;
+    /* Sets text color to a dark blue shade */
+
+    padding: 8px;
     h1 {
     color: darkblue;
     /* Sets text color to a dark blue shade */
@@ -20,6 +27,8 @@ body {
        - 6px blur radius (softness)
        - gray color */
 }
+    
+p {
     p {
     color: white;
     /* Sets lyric text color to white */
@@ -43,6 +52,9 @@ body {
     border-radius: 5px;
     /* Rounds the corners of the box by 5 pixels */
 }
+    
+
+/* Selects ONLY the 5th paragraph element */
     /* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
     background: revert;
@@ -56,6 +68,7 @@ a {
     font-size: 12px;
     /* Makes the link text smaller */
 }
+    
 .about{
     margin: auto;
     padding: 15px 20px;
