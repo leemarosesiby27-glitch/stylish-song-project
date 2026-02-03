@@ -13,6 +13,11 @@ h1 {
     /* Sets text color to a dark blue shade */
 
     padding: 8px;
+    h1 {
+    color: darkblue;
+    /* Sets text color to a dark blue shade */
+
+    padding: 10px;
     /* Adds 8 pixels of space inside the element around the text */
 
     text-shadow: 5px 5px 6px gray;
@@ -24,6 +29,7 @@ h1 {
 }
     
 p {
+    p {
     color: white;
     /* Sets lyric text color to white */
 
@@ -49,6 +55,7 @@ p {
     
 
 /* Selects ONLY the 5th paragraph element */
+    /* Selects ONLY the 5th paragraph element */
 p:nth-child(5) {
     background: revert;
     box-shadow: revert;
@@ -62,3 +69,11 @@ a {
     /* Makes the link text smaller */
 }
     
+.about{
+    margin: auto;
+    padding: 15px 20px;
+    background-image: pink;
+}
+.btn{
+    
+}
