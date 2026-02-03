@@ -10,7 +10,7 @@ body {
     color: darkblue;
     /* Sets text color to a dark blue shade */
 
-    padding: 8px;
+    padding: 10px;
     /* Adds 8 pixels of space inside the element around the text */
 
     text-shadow: 5px 5px 6px gray;
